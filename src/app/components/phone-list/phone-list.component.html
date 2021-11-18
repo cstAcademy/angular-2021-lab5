@@ -1,0 +1,9 @@
+<button routerLink="/">Add a new phone</button>
+
+<div *ngFor="let phone of phones" class="phone-container">
+  <div><strong>Title: </strong>{{phone.title}}</div>
+  <div><strong>Description: </strong>{{phone.description}}</div>
+  <br>
+  <div><strong>Brand: </strong>{{phone.brand}}</div>
+  <div><strong>Is negotiable?: </strong>{{phone.isNegotiable ? 'Yes' : 'No'}}</div>
+</div>
