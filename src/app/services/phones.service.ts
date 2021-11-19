@@ -6,6 +6,7 @@ import { Phone } from '../types/Phone';
 })
 export class PhonesService {
 
+  // We use the custom created type exactly as an inbuilt one
   private phones: Phone[] = [];
 
   constructor() { }
